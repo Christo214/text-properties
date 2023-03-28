@@ -1,0 +1,102 @@
+
+*{
+	background-color:yellow;
+}
+
+
+/*Text color*/
+h2
+{
+	background-color:blue;
+	color:red;
+}
+li::marker
+{
+	color:#229955;
+	font-size:20px;
+}
+h3
+{
+	color:orange;
+}
+
+/*Text Align*/
+
+.align h2
+{
+	text-align:center;
+}
+.align h3
+{
+	text-align:right;
+}
+.align h4
+{
+	text-align:left;
+}
+p.dir
+{
+	direction:rtl;
+	unicode-bidi:bidi-override;
+}
+
+/*Text Decoration*/
+
+p.overline 
+{
+	text-decoration-line:overline;
+}
+p.linethrough 
+{
+	text-decoration-line:line-through;
+}
+p.underline 
+{
+	text-decoration-line:underline;
+}
+p.underlineoverline 
+{
+	text-decoration-line:underline overline;
+}
+
+/*Text Transformation*/
+
+p.upper
+{
+	text-transform:uppercase;
+}
+p.lower
+{
+	text-transform:lowercase;
+}
+p.caption
+{
+	text-transform:capitalize;
+}
+
+/*text spacing*/
+
+p.Joy
+{
+	text-indent:100px;
+}
+p.Joy1
+{
+	letter-spacing:5px;
+}
+p.Joy2
+{
+	word-spacing:15px;
+}
+p.Joy2
+{
+	line-height:10px;
+}
+
+/*Text Shadow*/
+
+p.Shadow
+{
+	font-size:60px;
+	text-shadow:12px 15px 7px blue;
+}
